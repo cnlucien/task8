@@ -1,8 +1,12 @@
+html{
+    font-size: 125%;
+}
 p,ul{
     margin: 0;
     padding: 0;
 }
-/*-----------------------------------------------------------*/
+
+/*-----------------------head------------------------------------*/
 img{
     max-width: 100%;
 }
@@ -14,7 +18,6 @@ div.head1 p{
     color: #2AB079;
 }
 
-/*---------------------------------------------------------------*/
 .head2{
     background-color: rgb(41,176,120);
     height: 100px;
@@ -26,7 +29,7 @@ ul{
 }
 li{
     display: inline-block;
-    width: 90px;
+    width: 85px;
     position: relative;
     /*margin-left: 10px;*/
 }
@@ -53,8 +56,105 @@ li:hover i{
     display: block;
 }
 
-@media screen and (max-width: 410px) {
-    li{
-        width: 45px;
+div.item img{
+    width: 100%;
+}
+
+/*--------------------------------main---------------------------------------*/
+main{
+    background-color: #FAFAFA;
+}
+.title {
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+    margin: 10px 0;
+}
+.paragraph {
+    font-size: 18px;
+    color: rgb(153, 153, 153);
+    margin: 10px 0;
+}
+.number {
+    font-size: 18px;
+    color: rgb(38, 162, 111);
+}
+span.glyphicon-user{
+    color: rgb(38, 162, 111);
+}
+.inline-block{
+    display: inline-block;
+}
+.inline{
+    display: inline;
+}
+.margin-top{
+    margin-top: 30px;
+}
+.margin-left{
+    margin-left: 5px;
+}
+.border-right{
+    border-right: dashed 1px #DEDEDE;
+}
+.circle{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: rgb(38, 162, 111);
+    border: solid 1px #EFEEEE;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: inline-block;
+    /*top: 50%;*/
+    /*transform: translateY(-50%);*/
+}
+.paragraph2 {
+    font-size: 16px;
+    color: rgb(153, 153, 153);
+    margin-left: 70px;
+    position: relative;
+    /*top: 50%;*/
+}
+.arrows{
+    background: url("../images/arrows.png") no-repeat;
+    width: 26px;
+    height: 26px;
+    right: -8px;
+    /*top: 50%;*/
+    /*transform: translateY(-50%);*/
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.height{
+    /*width: 100%;*/
+    height: 80px;
+    /*line-height: 80px;*/
+}
+/*--------------------------<=767px-------------------------------------*/
+@media screen and (max-width:767px) {
+    .head2 li{
+        width: 60px;
+    }
+    /*div.head1 p{*/
+    /*display: none;*/
+    /*}*/
+    .head1{
+        height: 80px;
+    }
+    .head2{
+        height: 50px;
+        line-height: 50px;
+    }
+    .paragraph {
+        text-align: center;
+    }
+    .center{
+        text-align: center;
     }
 }
+
