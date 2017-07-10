@@ -60,14 +60,16 @@ div.item img{
     width: 100%;
 }
 
-/*--------------------------------main---------------------------------------*/
+/*--------------------------------main-good---------------------------------------*/
 main{
     background-color: #FAFAFA;
+    overflow: hidden;
 }
 .title {
     font-size: 18px;
     color: rgb(51, 51, 51);
     margin: 10px 0;
+    font-family: 黑体;
 }
 .paragraph {
     font-size: 18px;
@@ -96,32 +98,42 @@ span.glyphicon-user{
 .border-right{
     border-right: dashed 1px #DEDEDE;
 }
+/*--------------------------------main-study--------------------------------------------*/
+.wrap{
+    /*width: 100%;*/
+    height: 100px;
+    /*line-height: 80px;*/
+}
 .circle{
     width: 60px;
     height: 60px;
     line-height: 60px;
     text-align: center;
     color: rgb(38, 162, 111);
-    border: solid 1px #EFEEEE;
+    border: solid 3px #EFEEEE;
     border-radius: 50%;
     background-color: #ffffff;
     display: inline-block;
-    /*top: 50%;*/
+    top: 20px;
     /*transform: translateY(-50%);*/
 }
 .paragraph2 {
-    font-size: 16px;
+    font-size: 12px;
     color: rgb(153, 153, 153);
-    margin-left: 70px;
-    position: relative;
+    margin:30px 0 0 65px;
     /*top: 50%;*/
+}
+.paragraph3{
+    font-size: 12px;
+    color: rgb(153, 153, 153);
+    margin:40px 0 0 65px;
 }
 .arrows{
     background: url("../images/arrows.png") no-repeat;
     width: 26px;
     height: 26px;
-    right: -8px;
-    /*top: 50%;*/
+    right: -27px;
+    top: 37px;
     /*transform: translateY(-50%);*/
 }
 .relative{
@@ -130,10 +142,64 @@ span.glyphicon-user{
 .absolute{
     position: absolute;
 }
-.height{
-    /*width: 100%;*/
-    height: 80px;
-    /*line-height: 80px;*/
+/*--------------------------------main-student------------------------------------------------*/
+.student{
+    /*height: 400px;*/
+    border: solid 3px #EFEEEE;
+    background-color: #ffffff;
+    padding: 20px;
+}
+.paragraph4 {
+    font-size: 12px;
+    color: rgb(153, 153, 153);
+    margin: 10px 0;
+}
+.round{
+    width: 13px;
+    height: 13px;
+    border: solid 2px #EFEEEE;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: inline-block;
+}
+.blue-round{
+    background-color: rgb(38, 162, 111);
+}
+.margin-bottom{
+    margin-bottom: 40px;
+}
+.margin-left1{
+    margin-left: 20px;
+}
+/*---------------------foot-------------------------------------*/
+.round1{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: rgb(153, 153, 153);
+
+}
+.vertical-middle{
+    vertical-align: middle;
+}
+.bg-foot{
+    background-color: rgb(38, 162, 111);
+    padding: 10px 0;
+}
+.color-white{
+    color: #ffffff;
+}
+.qr{
+    height: 150px;
+    position: absolute;
+    right: 230px;
+    top: 25px;
+}
+.margin-bottom1{
+    margin-bottom: 20px;
+}
+.size{
+    font-size: 10px;
 }
 /*--------------------------<=767px-------------------------------------*/
 @media screen and (max-width:767px) {
@@ -156,5 +222,38 @@ span.glyphicon-user{
     .center{
         text-align: center;
     }
+    .arrows{
+        display: none;
+    }
+    .wrap{
+        line-height: 100px;
+        text-align: center;
+    }
+    .paragraph2{
+        margin-top: 0;
+    }
+    .paragraph3{
+        margin-top: 0;
+    }
+    .circle{
+        top: 20px;
+        left: 60px;
+        /*transform: translateY(-50%);*/
+    }
+    footer{
+        text-align: center;
+    }
+    .qr{
+        right: 10px;
+    }
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+    .study-left{
+        margin-left: 16.667%;
+    }
+    .qr{
+        right: 30px;
+    }
+
+}
