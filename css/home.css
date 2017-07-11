@@ -55,7 +55,9 @@ i{
 li:hover i{
     display: block;
 }
-
+a:active i{
+    display: block;
+}
 div.item img{
     width: 100%;
 }
@@ -184,16 +186,17 @@ span.glyphicon-user{
 }
 .bg-foot{
     background-color: rgb(38, 162, 111);
-    padding: 10px 0;
+    padding: 3% 0;
+    height: 200px;
 }
 .color-white{
     color: #ffffff;
 }
 .qr{
-    height: 150px;
+    height: 112px;
     position: absolute;
-    right: 230px;
-    top: 25px;
+    right: 19%;
+    top: 44px;
 }
 .margin-bottom1{
     margin-bottom: 20px;
