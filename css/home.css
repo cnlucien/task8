@@ -102,9 +102,7 @@ span.glyphicon-user{
 }
 /*--------------------------------main-study--------------------------------------------*/
 .wrap{
-    /*width: 100%;*/
-    height: 100px;
-    /*line-height: 80px;*/
+    padding: 5px;
 }
 .circle{
     width: 60px;
@@ -116,13 +114,13 @@ span.glyphicon-user{
     border-radius: 50%;
     background-color: #ffffff;
     display: inline-block;
-    top: 20px;
-    /*transform: translateY(-50%);*/
+    top: 50%;
+    transform: translateY(-50%);
 }
 .paragraph2 {
     font-size: 12px;
     color: rgb(153, 153, 153);
-    margin:30px 0 0 65px;
+    margin-left: 65px;
     /*top: 50%;*/
 }
 .paragraph3{
@@ -134,15 +132,29 @@ span.glyphicon-user{
     background: url("../images/arrows.png") no-repeat;
     width: 26px;
     height: 26px;
-    right: -27px;
-    top: 37px;
-    /*transform: translateY(-50%);*/
+    right: -25px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .relative{
     position: relative;
 }
 .absolute{
     position: absolute;
+}
+.one{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.left2{
+    left: 33.33%;
+}
+.left3{
+    left: 49.99%;
+}
+.left4{
+    left: 66.67%;
 }
 /*--------------------------------main-student------------------------------------------------*/
 .student{
@@ -206,57 +218,148 @@ span.glyphicon-user{
 }
 /*--------------------------<=767px-------------------------------------*/
 @media screen and (max-width:767px) {
-    .head2 li{
+    .head2 li {
         width: 60px;
     }
+
     /*div.head1 p{*/
     /*display: none;*/
     /*}*/
-    .head1{
+    .head1 {
         height: 80px;
     }
-    .head2{
+
+    .head2 {
         height: 50px;
         line-height: 50px;
     }
+
     .paragraph {
         text-align: center;
     }
-    .center{
+
+    .center {
         text-align: center;
     }
-    .arrows{
+
+    .qr {
+        right: 10px;
+    }
+
+    .study-left {
+        margin-left: 0;
+    }
+
+    .arrows {
         display: none;
     }
-    .wrap{
-        line-height: 100px;
+
+    .wrap {
         text-align: center;
+        padding: 23px;
     }
-    .paragraph2{
+
+    .paragraph2 {
+        margin-left: 80px;
+    }
+
+    .paragraph3 {
         margin-top: 0;
     }
-    .paragraph3{
-        margin-top: 0;
+
+    .circle {
+        top: 50%;
+        left: 10%;
+        transform: translateY(-50%);
     }
-    .circle{
-        top: 20px;
-        left: 60px;
-        /*transform: translateY(-50%);*/
+
+    .qr {
+        right: 30px;
     }
-    footer{
+
+    footer {
         text-align: center;
     }
-    .qr{
-        right: 10px;
+
+    .wrap {
+        padding: 23px;
+    }
+
+    .one {
+        position: static;
+        top: 0;
+        transform: translateY(0);
+    }
+
+    .left2 {
+        left: 0;
+    }
+
+    .left3 {
+        left: 0;
+    }
+
+    .left4 {
+        left: 0;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .study-left{
-        margin-left: 16.667%;
+    .study-left {
+        margin-left: 16.67%;
     }
-    .qr{
+
+    .arrows {
+        display: none;
+    }
+
+    .wrap {
+        text-align: center;
+        padding: 23px;
+    }
+
+    .paragraph2 {
+        margin-left: 80px;
+    }
+
+    .paragraph3 {
+        margin-top: 0;
+    }
+
+    .circle {
+        top: 50%;
+        left: 10%;
+        transform: translateY(-50%);
+    }
+
+    .qr {
         right: 30px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .wrap {
+        padding: 23px;
+    }
+
+    .one {
+        position: static;
+        top: 0;
+        transform: translateY(0);
+    }
+
+    .left2 {
+        left: 0;
+    }
+
+    .left3 {
+        left: 0;
+    }
+
+    .left4 {
+        left: 0;
     }
 
 }
