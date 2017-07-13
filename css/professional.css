@@ -1,0 +1,149 @@
+html{
+    font-size: 125%;
+}
+p,ul{
+    margin: 0;
+    padding: 0;
+}
+.margin-top{
+    margin-top: 30px;
+}
+.margin-left{
+    margin-left: 5px;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+/*-----------------------head------------------------------------*/
+
+img{
+    max-width: 100%;
+}
+.head1{
+    height: 40px;
+    line-height: 40px;
+}
+div.head1 p{
+    color: #2AB079;
+}
+
+.head2{
+    background-color: rgb(41,176,120);
+    height: 100px;
+    line-height: 100px;
+
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+    width: 85px;
+    position: relative;
+    /*margin-left: 10px;*/
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover, a:visited, a:link, a:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+i{
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 4px;
+    display: none;
+}
+li:hover i{
+    display: block;
+}
+a:active i{
+    display: block;
+}
+div.item img{
+    width: 100%;
+}
+/*---------------------foot-------------------------------------*/
+footer{
+    overflow: hidden;
+}
+.round1{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: rgb(153, 153, 153);
+
+}
+.vertical-middle{
+    vertical-align: middle;
+}
+.bg-foot{
+    background-color: rgb(38, 162, 111);
+    padding: 3% 0;
+    /*height: 200px;*/
+}
+.color-white{
+    color: #ffffff;
+}
+.qr{
+    height: 112px;
+    position: absolute;
+    right: 19%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.margin-bottom1{
+    margin-bottom: 20px;
+}
+.size{
+    font-size: 10px;
+    margin-bottom: -20px;
+}
+/*--------------------------<=767px-------------------------------------*/
+@media screen and (max-width:767px) {
+    .head2 li {
+        width: 60px;
+    }
+
+    .head1 {
+        height: 80px;
+    }
+
+    .head2 {
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .paragraph {
+        text-align: center;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .wrap {
+        padding: 23px;
+    }
+
+    .one {
+        position: static;
+        top: 0;
+        transform: translateY(0);
+    }
+
+}

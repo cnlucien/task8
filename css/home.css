@@ -7,6 +7,9 @@ p,ul{
 }
 
 /*-----------------------head------------------------------------*/
+header{
+    overflow: hidden;
+}
 img{
     max-width: 100%;
 }
@@ -186,6 +189,9 @@ span.glyphicon-user{
     margin-left: 20px;
 }
 /*---------------------foot-------------------------------------*/
+footer{
+    overflow: hidden;
+}
 .round1{
     width: 4px;
     height: 4px;
@@ -304,7 +310,7 @@ span.glyphicon-user{
     }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 767px) and (max-width: 991px) {
     .study-left {
         margin-left: 16.67%;
     }
