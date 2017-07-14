@@ -34,7 +34,7 @@ div.head1 p{
     background-color: rgb(41,176,120);
     height: 100px;
     line-height: 100px;
-
+    font-size: 20px;
 }
 ul{
     list-style: none;
@@ -64,15 +64,16 @@ i{
     height: 4px;
     display: none;
 }
+li:visite i{
+    display: block;
+}
+li:focus i{
+    display: block;
+}
 li:hover i{
     display: block;
 }
-a:active i{
-    display: block;
-}
-div.item img{
-    width: 100%;
-}
+
 /*---------------------foot-------------------------------------*/
 footer{
     overflow: hidden;
@@ -202,4 +203,48 @@ div.text-left{
 }
 .company{
     border-bottom: solid 1px rgb(153, 153, 153);
+}
+.paragraph {
+    font-size: 14px;
+    color: rgb(153, 153, 153);
+    margin-left: 140px;
+}
+.paragraph3 {
+    font-size: 14px;
+    color: rgb(153, 153, 153);
+}
+main img.inline-block{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.padding-top-40px{
+    padding-top:40px;
+}
+.padding-bottom-40px{
+    padding-bottom:40px;
+}
+.padding-l-r-50px{
+    padding-left:50px;
+    padding-right:50px;
+}
+hr{
+    border-color: rgb(153, 153, 153) !important;
+    margin: 0 !important;
+}
+.margin-bottom-150px{
+    margin-bottom: 150px;
+}
+div.item:visited div.circle{
+    background-color: #F9A473;
+}
+div.item:visited p.company-p{
+    color: #FF6610;
+}
+div.item:hover div.circle{
+    background-color: #F9A473;
+}
+div.item:hover p.company-p{
+    color: #FF6610;
 }
