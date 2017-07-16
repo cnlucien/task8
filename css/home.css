@@ -72,7 +72,7 @@ main{
     overflow: hidden;
 }
 .title {
-    font-size: 16px;
+    font-size: 20px;
     color: rgb(51, 51, 51);
     margin: 10px 0;
     font-family: 黑体;
@@ -105,6 +105,10 @@ span.glyphicon-user{
     border-right: dashed 1px #DEDEDE;
 }
 /*--------------------------------main-study--------------------------------------------*/
+.study-height{
+    height:70px;
+    line-height: 70px;
+}
 .wrap{
     padding: 5px;
 }
@@ -142,6 +146,7 @@ span.glyphicon-user{
 }
 .relative{
     position: relative;
+
 }
 .absolute{
     position: absolute;
@@ -152,18 +157,19 @@ span.glyphicon-user{
     transform: translateY(-50%);
 }
 .left2{
-    left: 33.33%;
+    left: 24.99%;
 }
 .left3{
     left: 49.99%;
 }
 .left4{
-    left: 66.67%;
+    left: 74.99%;
 }
 /*--------------------------------main-student------------------------------------------------*/
 .student{
     /*height: 400px;*/
     border: solid 3px #EFEEEE;
+    border-radius: 5px;
     background-color: #ffffff;
     padding: 20px;
 }
@@ -189,7 +195,16 @@ span.glyphicon-user{
 .margin-left1{
     margin-left: 20px;
 }
-img.box-shadow:hover{
+.bg-white{
+    background-color: #ffffff;
+}
+.company-img{
+    width: 19.67%;
+    height: 150px;
+    line-height: 150px;
+    display: inline-block;
+}
+.company-img:hover{
     box-shadow: 0 0 10px #888888;
 }
 /*---------------------foot-------------------------------------*/
@@ -324,12 +339,12 @@ footer{
     }
 
     .wrap {
-        text-align: center;
+        text-align: left;
         padding: 23px;
     }
 
     .paragraph2 {
-        margin-left: 80px;
+        margin-left: 150px;
     }
 
     .paragraph3 {
