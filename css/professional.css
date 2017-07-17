@@ -17,6 +17,9 @@ p,ul{
 .absolute{
     position: absolute;
 }
+.inline-block{
+    display: inline-block;
+}
 /*-----------------------head------------------------------------*/
 
 img{
@@ -25,6 +28,7 @@ img{
 .head1{
     height: 40px;
     line-height: 40px;
+
 }
 div.head1 p{
     color: #2AB079;
@@ -45,12 +49,10 @@ li{
     position: relative;
     /*margin-left: 10px;*/
 }
-
-a{
-    text-decoration: none;
-    color: #ffffff;
-}
-a:hover, a:visited, a:link, a:active {
+div.head2 a:link,
+div.head2 a:visited,
+div.head2 a:hover,
+div.head2 a:active{
     color: #ffffff;
     text-decoration: none;
 }
@@ -67,16 +69,13 @@ i{
 li:hover i{
     display: block;
 }
-a:active i{
+li:focus i{
     display: block;
 }
 div.item img{
     width: 100%;
 }
 /*---------------------foot-------------------------------------*/
-footer{
-    overflow: hidden;
-}
 .round1{
     width: 4px;
     height: 4px;
@@ -89,25 +88,45 @@ footer{
 }
 .bg-foot{
     background-color: rgb(38, 162, 111);
-    padding: 3% 0;
-    /*height: 200px;*/
+    padding-top: 20px;
 }
 .color-white{
     color: #ffffff;
+}
+div.bg-foot a:link,
+div.bg-foot a:visited,
+div.bg-foot a:hover,
+div.bg-foot a:active{
+    color: #ffffff;
+    text-decoration: none;
 }
 .qr{
     height: 112px;
     position: absolute;
     right: 19%;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 44px;
 }
 .margin-bottom1{
     margin-bottom: 20px;
 }
 .size{
     font-size: 10px;
-    margin-bottom: -20px;
+    border-top:solid 1px #33C087;
+    padding:5px 0;
+}
+.margin-left1{
+    margin-left: 20px;
+}
+.paragraph4 {
+    font-size: 12px;
+    color: rgb(153, 153, 153);
+    margin: 10px 0;
+}
+.title {
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+    margin: 10px 0;
+    font-family: 黑体;
 }
 /*--------------------------<=767px-------------------------------------*/
 @media screen and (max-width:767px) {
