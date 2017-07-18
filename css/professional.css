@@ -242,6 +242,21 @@ div.item{
 div.item div{
     margin: 0 !important;
 }
-div.item div.row{
+.border-bottom{
     border-bottom: solid 1px #EDF1F2;
+}
+.border-right{
+    border-right: solid 1px #EDF1F2;
+}
+.border-left{
+    border-left: solid 1px #EDF1F2;
+}
+/*div.item div.row{*/
+    /*padding: 5px 0;*/
+/*}*/
+.font-size-18px{
+    font-size: 10px;
+}
+.height-40px{
+    padding: 15px 3px;
 }
