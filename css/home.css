@@ -7,9 +7,6 @@ p,ul{
 }
 
 /*-----------------------head------------------------------------*/
-header{
-    overflow: hidden;
-}
 img{
     max-width: 100%;
 }
@@ -22,33 +19,6 @@ div.head1 p{
     color: #2AB079;
 }
 
-.head2{
-    background-color: rgb(41,176,120);
-    height: 100px;
-    line-height: 100px;
-    font-size: 20px;
-}
-ul{
-    list-style: none;
-}
-li{
-    display: inline-block;
-    width: 85px;
-    position: relative;
-    /*margin-left: 10px;*/
-}
-
-/*a{*/
-    /*text-decoration: none;*/
-    /*color: #ffffff;*/
-/*}*/
-div.head2 a:link,
-div.head2 a:visited,
-div.head2 a:hover,
-div.head2 a:active{
-    color: #ffffff;
-    text-decoration: none;
-}
 .color-black{
     color: #000;
 }
@@ -62,12 +32,7 @@ i{
     height: 4px;
     display: none;
 }
-li:hover i{
-    display: block;
-}
-li:focus i{
-    display: block;
-}
+
 div.item img{
     width: 100%;
 }
